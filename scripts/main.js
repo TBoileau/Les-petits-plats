@@ -1,5 +1,5 @@
 const getData = () =>
-	fetch('../scripts/data/recipes.json') /* Appeler l'API Fetch */
+	fetch('./scripts/data/recipes.json') /* Appeler l'API Fetch */
     .then(response => response.json()) /*  Convertir res en données JSON */
     .then(data => { /* Traiter les données JSON */
       return data;
